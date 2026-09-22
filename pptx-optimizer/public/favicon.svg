@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Zoomifier favicon">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C63FF"/>
+      <stop offset="100%" stop-color="#2EA8FF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#1C3D7A" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <circle cx="256" cy="256" r="256" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)">
+    <text x="256" y="330" text-anchor="middle" font-size="320" font-weight="700" font-family="Montserrat, 'Segoe UI', sans-serif" fill="#FFFFFF" letter-spacing="-18">Z</text>
+  </g>
+</svg>
