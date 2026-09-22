@@ -314,13 +314,19 @@ input {
     column;
 
   align-items:
-    stretch;
+    center;
+
+  justify-content:
+    center;
 
   gap:
     28px;
 
   min-height:
     520px;
+
+  width:
+    100%;
 }
 
 
@@ -334,6 +340,9 @@ input {
 
   align-items:
     center;
+
+  width:
+    min(100%, 900px);
 
   max-width:
     700px;
